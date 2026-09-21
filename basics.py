@@ -165,7 +165,7 @@ while True:
                 result = 0
                 value = str(result)
                 display()
-    elif isinstance(input1, int):
+    else:
         input2 = input("")
         value = str(input1)+ str(input2)
         display()
@@ -204,6 +204,29 @@ while True:
                 display()
             case "=":
                 break
-    else:
-        break
 """
+"""
+#weight converter
+
+def weight_conv():
+    value=input("conversion from kg to gram ? y/n  ")
+    if value.lower ()=="y":
+        w_kg= float(input("enter the weight in killograms"))
+        print(w_kg * 1000 ," converted to grams")
+    else:
+        w_g=float(input("enter the weight in grams"))
+        print(w_g/1000 ,"converted to killograms")
+
+print("welcome to weight converter")
+weight_conv()
+"""
+
+name = input("enter your name")
+a=len(name)
+while a>=1 or a<=12 :
+    b=name.count(" ")
+    if b == 0 :
+        c=name.isalpha
+        if c== True:
+            print"input saved"
+            

@@ -53,7 +53,7 @@ while True:
                 result = 0
                 value = str(result)
                 display()
-    elif isinstance(input1, int):
+    else:
         input2 = input("")
         value = str(input1)+ str(input2)
         display()
@@ -92,5 +92,3 @@ while True:
                 display()
             case "=":
                 break
-    else:
-        break
