@@ -27,7 +27,7 @@ def stopwatch():
         s=59
         if i>0:
             m-=1
-        elif h>0:
+        if h>0:
             h-=1
             m=59
 
