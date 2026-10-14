@@ -449,6 +449,7 @@ else:
 """
 
 """
+#menu creation
 
 foods=[]
 prices=[]
@@ -468,6 +469,8 @@ for items, prices in menu.items():
 """
 
 """
+#number guessing game
+
 import random
 number = random.randint(1, 100)
 guess = None
@@ -486,4 +489,8 @@ while guess != number:
             print("Too high! Try again.")
     else:
         print(f"Congratulations! You've guessed the correct number: {number}")
+"""
+
+"""
+
 """
